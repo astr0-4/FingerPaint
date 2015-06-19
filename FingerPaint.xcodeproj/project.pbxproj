@@ -14,6 +14,7 @@
 		FAAC4E4F1B34A3CE00D0A968 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAC4E4E1B34A3CE00D0A968 /* Images.xcassets */; };
 		FAAC4E521B34A3CE00D0A968 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAC4E501B34A3CE00D0A968 /* LaunchScreen.xib */; };
 		FAAC4E5E1B34A3CE00D0A968 /* FingerPaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC4E5D1B34A3CE00D0A968 /* FingerPaintTests.m */; };
+		FAAC4E691B34A54300D0A968 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC4E681B34A54300D0A968 /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FAAC4E571B34A3CE00D0A968 /* FingerPaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPaintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAC4E5C1B34A3CE00D0A968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAC4E5D1B34A3CE00D0A968 /* FingerPaintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerPaintTests.m; sourceTree = "<group>"; };
+		FAAC4E671B34A54300D0A968 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		FAAC4E681B34A54300D0A968 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				FAAC4E451B34A3CE00D0A968 /* AppDelegate.h */,
 				FAAC4E461B34A3CE00D0A968 /* AppDelegate.m */,
+				FAAC4E671B34A54300D0A968 /* DrawingView.h */,
+				FAAC4E681B34A54300D0A968 /* DrawingView.m */,
 				FAAC4E481B34A3CE00D0A968 /* ViewController.h */,
 				FAAC4E491B34A3CE00D0A968 /* ViewController.m */,
 				FAAC4E4B1B34A3CE00D0A968 /* Main.storyboard */,
@@ -222,6 +227,7 @@
 				FAAC4E4A1B34A3CE00D0A968 /* ViewController.m in Sources */,
 				FAAC4E471B34A3CE00D0A968 /* AppDelegate.m in Sources */,
 				FAAC4E441B34A3CE00D0A968 /* main.m in Sources */,
+				FAAC4E691B34A54300D0A968 /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
